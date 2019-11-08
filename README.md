@@ -28,6 +28,6 @@ Zabbix external script for checking account data (balance, limits etc.) in numer
     |{$N_P}| name of the form field for a password |
     |{$N_CS} | name of the form field for csrf-token |
 
-    If sign-in form don't have csrf-token, `{$CS_URL}`, `{$R_CS}`, `{$N_CS}` may be ignored.
+    If sign-in form don't have csrf-token, macroses:`{$CS_URL}`, `{$R_CS}`, `{$N_CS}` may be ignored.
 
 5. Rewrite or use trigger in template.
