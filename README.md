@@ -1,4 +1,4 @@
-# zabbix-account-balance-checker
+# zabbix account balance checker
 Zabbix external script for checking account data (balance, limits etc.) in numeric format
 
 1. Copy script "web_request_def.py" to directory: usr/lib/zabbix/externalscripts
