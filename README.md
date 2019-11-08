@@ -17,15 +17,15 @@ Zabbix external script for checking account data (balance, limits etc.) in numer
 
     |Macros|Description|
     |------|-----------|
-    |{$A_URL} | registration page |
-    |{$CS_URL} | csrf-token page |
-    |{$C_URL} | data page |
+    |{$A_URL} | url where auth request will be sent (with POST) |
+    |{$CS_URL} | authentification page (url with sign-in form with csrf-token)  |
+    |{$C_URL} | URL where account data (numeric value will be grabbed from) |
     |{$R_CS} | regular expression for getting csrf-token |
     |{$R_C} | regular expression for getting value |
     |{$L} | login |
     |{$P} | password |
-    |{$N_L} | name of the field for a login |
-    |{$N_P}| name of the field for a password |
-    |{$N_CS} | name of the tag class for getting csrf-token |
+    |{$N_L} | name of the form field for a login |
+    |{$N_P}| name of the form field for a password |
+    |{$N_CS} | name of the form field for csrf-token |
 
-5. Rewrite or use trigger in template. 
+5. Rewrite or use trigger in template.
